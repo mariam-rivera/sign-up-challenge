@@ -1,0 +1,40 @@
+.alert {
+    display: flex;
+    align-self: center;
+    width: 310px;
+    height: 75px;
+    margin-top: 10px;
+  }
+  
+  .alert__icon {
+    width: 20%;
+    align-self: center;
+    padding-left: 10px;
+  }
+  
+  .alert__info {
+    width: 80%;
+    align-self: center;
+  }
+  
+  .alert__info__title {
+    font-size: 15px;
+  }
+  
+  .alert__info__description {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: -10px;
+  }
+
+  .alert--success {
+    background-color: rgba(0, 255, 0, 0.1);
+    color: var(--color-success);
+    border: 1px solid var(--color-success);
+  }
+  
+  .alert--error {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: var(--color-error);
+    border: 1px solid var(--color-error);
+  }

@@ -1,0 +1,36 @@
+.email {
+    align-self: center;
+}
+
+.email__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.email__name {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.email__field {
+    border: none;
+    background-color: var(--color-bg);
+    width: 250px;
+    height: 45px;
+    outline: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    padding-left: 10px;
+}
+
+.email__button {
+    background-color: var(--color-secondary);
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 47px;
+    outline: none;
+}
